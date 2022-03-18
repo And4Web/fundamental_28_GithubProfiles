@@ -9,13 +9,38 @@
     integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
     crossorigin="anonymous" />
   <link rel="stylesheet" href="style.css">
-  <title>1_Expanding Cards</title>
+  <title>28_Github Profiles</title>
 </head>
 
 <body>
-  <h1>start here</h1>
-  <h2>hello</h2>
-  <h2>hello</h2>
+  <div class="githubProfiles">
+    <form class="user-form" id="user-form">
+      <input type="text" id="input" placeholder="Search Github Profile">
+    </form>
+
+    <main id="main">
+      <div class="card">
+        <div>
+          <img src="https://randomuser.me/api/portraits/women/30.jpg" alt="" class="avatar">
+        </div>
+        <div class="user-info">
+          <h2>Merry Kumari</h1>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. In odio laborum, repellendus illum odit adipisci incidunt dolore cumque est natus!</p>
+        </div>
+        <ul>
+          <li>5510 <strong>Followers</strong></li>
+          <li>1905 <strong>Following</strong></li>
+          <li>89 <strong>Repositories</strong></li>
+        </ul>
+        <div id="repos">
+          <a href="#" class="repos">Repo1</a>
+          <a href="#" class="repos">Repo2</a>
+          <a href="#" class="repos">Repo3</a>
+          <a href="#" class="repos">Repo4</a>
+        </div>
+      </div>
+    </main>
+  </div>
 
 
   <script src="script.js"></script>
